@@ -1,0 +1,231 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color_1: #ffffff;
+$primary-color_2: #f4f9ff;
+
+.screen {
+    background-color: $primary-color_2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+    .div {
+        background-color: $primary-color_2;
+        border: none;
+        height: 900px;
+        position: relative;
+        width: 1440px;
+    }
+
+    .overlap {
+        height: 444px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 1440px;
+    }
+
+    .rectangle {
+        background-color: $primary-color_1;
+        height: 353px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 1440px;
+    }
+
+    .form-subText {
+        color: #728197;
+        font-size: 12px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-left: 65px;
+    }
+
+    .form {
+        height: 170px;
+        left: 229px;
+        position: absolute;
+        top: 220px;
+        width: 982px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $primary-color_1;
+        box-shadow: 10px -4px 60px #0000001f;
+
+        &-subText-container {
+            margin-top: 20px;
+        }
+
+        &-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .subheading {
+        color: #728197;
+        font-family: "Inter-Medium", Helvetica;
+        font-size: 18px;
+        font-weight: 500;
+        left: 531px;
+        letter-spacing: -0.54px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 145px;
+    }
+
+    .heading {
+        color: #003a59;
+        font-family: "Inter-ExtraBold", Helvetica;
+        font-size: 36px;
+        font-weight: 800;
+        left: 532px;
+        letter-spacing: -1.08px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 89px;
+    }
+
+    .text-wrapper {
+        color: #2e3849;
+        font-family: "Inter-SemiBold", Helvetica;
+        font-size: 14px;
+        font-weight: 600;
+        left: 1079px;
+        letter-spacing: -0.42px;
+        line-height: normal;
+        position: absolute;
+        text-align: right;
+        top: 427px;
+    }
+
+    .item {
+        background-color: $primary-color_1;
+        border: 1px solid;
+        border-color: #eef3f8;
+        border-radius: 4px;
+        box-shadow: 0px 6px 24px #0048730a;
+        height: 50px;
+        left: 253px;
+        position: relative;
+        top: 461px;
+        width: 934px;
+        margin-bottom: 8px;
+    }
+
+    .expiry-date {
+        color: #728197;
+        font-family: "Inter-SemiBold", Helvetica;
+        font-size: 12px;
+        font-weight: 600;
+        left: 157px;
+        letter-spacing: -0.36px;
+        line-height: normal;
+        position: absolute;
+        top: 16px;
+    }
+
+    .delete-outline-black {
+        height: 24px;
+        left: 889px;
+        position: absolute;
+        top: 12px;
+        width: 24px;
+    }
+
+    .title {
+        color: #2e3849;
+        font-family: "Inter-SemiBold", Helvetica;
+        font-size: 16px;
+        font-weight: 600;
+        left: 19px;
+        letter-spacing: -0.48px;
+        line-height: normal;
+        position: absolute;
+        top: 14px;
+        white-space: nowrap;
+    }
+
+    .chip {
+        height: 24px;
+        left: 777px;
+        position: absolute;
+        top: 12px;
+        width: 102px;
+    }
+
+    .overlap-group-healthy {
+        background-color: #DBFFE6;
+        border-radius: 22px;
+        height: 24px;
+        position: relative;
+        width: 100px;
+    }
+
+    .overlap-group-expired {
+        background-color: #FFEBEB;
+        border-radius: 22px;
+        height: 24px;
+        position: relative;
+        width: 100px;
+    }
+
+    .overlap-group-expiring-soon {
+        background-color: #fffdcc;
+        border-radius: 22px;
+        height: 24px;
+        position: relative;
+        width: 100px;
+    }
+
+    .text {
+        font-family: "Inter-SemiBold", Helvetica;
+        font-size: 12px;
+        font-weight: 600;
+        left: 13px;
+        letter-spacing: -0.36px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 5px;
+    }
+
+    .text-expiring-soon {
+        color: #754311;
+    }
+
+    .text-healthy {
+        color: #23553E;
+    }
+
+    .text-expired {
+        color: #752B2B;
+    }
+
+    .loding {
+        color: #003A59;
+        font-family: "Inter-SemiBold", Helvetica;
+        font-size: 14px;
+        font-weight: 600;
+        // left: 1079px;
+        letter-spacing: -0.42px;
+        line-height: normal;
+        position: relative;
+        text-align: right;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        top: 556px;
+    }
+}
